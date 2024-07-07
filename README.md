@@ -1,54 +1,45 @@
-# Vite-React-TS-Boilerplate
+# Disney Plus UI Clone with Vite, React, TypeScript, and Tailwind CSS 📺
 
-A modern template for React projects using Vite, TypeScript, SWC, and Tailwind. This template is configured to provide a fast and efficient development environment with support for linting and code formatting.
+This project is a work in progress and aims to create a clone of the Disney Plus user interface using Vite, React, TypeScript, and Tailwind CSS.
 
-## Features
+## Installation
 
-- **Vite**: A fast bundler and development server.
-- **React**: The most popular user interface library.
-- **TypeScript**: A superset of JavaScript that adds static types.
-- **SWC**: An extremely fast JavaScript compiler written in Rust.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **ESLint and Prettier**: Tools to maintain code quality and formatting.
+To get started, follow these steps:
 
-## Usage
+1. Clone the repository:
 
-1. **Install dependencies**:
+```bash
+git clone https://github.com/sebastianmsz/dysney-clone.git
+```
 
-   ```bash
-   npm install
-   ```
+2. Navigate to the project directory:
 
-2. **Start the development server**:
+```bash
+cd disney-clone
+```
 
-   ```bash
-   npm run dev
-   ```
+3. Install the dependencies:
 
-## Available Scripts
+```bash
+npm install
+```
 
-- `dev`: Starts the development server.
-- `build`: Compiles the project for production.
-- `lint`: Runs ESLint to check for linting errors.
-- `format`: Runs Prettier to format the code.
+4. Start the development server:
 
-## Project Structure
-
-- `src/`: Project source code.
-  - `App.tsx`: Main application component.
-  - `main.tsx`: Application entry point.
-  - `index.css`: Global styles.
-  - `vite-env.d.ts`: Type declarations for Vite.
-- `.eslintrc.js`: ESLint configuration.
-- `.prettierrc`: Prettier configuration.
-- `tsconfig.json`: TypeScript configuration.
-- `vite.config.ts`: Vite configuration.
-- `tailwind.config.js`: Tailwind CSS configuration.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```bash
+npm run dev
+```
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.

@@ -28,7 +28,7 @@ module.exports = {
 	],
 	ignorePatterns: ["dist", ".eslintrc.cjs"],
 	parser: "@typescript-eslint/parser",
-	plugins: ["@typescript-eslint", "react-refresh"],
+	plugins: ["@typescript-eslint", "react-refresh", "prettier"],
 	rules: {
 		"react-refresh/only-export-components": [
 			"warn",
@@ -42,5 +42,7 @@ module.exports = {
 			},
 		],
 		"@typescript-eslint/no-non-null-assertion": "off",
+		"prettier/prettier": "error",
+		"react/prop-types": "off",
 	},
 };
