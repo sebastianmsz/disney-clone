@@ -10,6 +10,6 @@
 		"forceConsistentCasingInFileNames": true,
 		"strict": true
 	},
-	"include": ["src/**/*", "./*.js", "polo/ProductionHouse.tsx"],
+	"include": ["src/**/*", "./*.js", "src/Components/ProductionHouse.tsx"],
 	"exclude": ["node_modules", "dist"]
 }
