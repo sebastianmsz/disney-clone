@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/img/logo.png";
 import HeaderItem from "./HeaderItem";
 import {
@@ -10,11 +10,7 @@ import {
 	HiTv,
 } from "react-icons/hi2";
 import { HiDotsVertical } from "react-icons/hi";
-
-interface MenuItem {
-	name: string;
-	icon: React.ComponentType;
-}
+import { MenuItem } from "../types";
 
 const menu: MenuItem[] = [
 	{ name: "HOME", icon: HiHome },

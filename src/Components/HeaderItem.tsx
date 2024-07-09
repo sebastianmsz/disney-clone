@@ -1,19 +1,10 @@
-interface HeaderItemProps {
-	icon: React.ComponentType;
-	name?: string;
-	key?: string;
-}
+import { HeaderItemProps } from "../types";
 
-const HeaderItem: React.FC<HeaderItemProps> = ({
-	icon: Icon,
-	name = "",
-	key,
-}) => (
+const HeaderItem: React.FC<HeaderItemProps> = ({ icon: Icon, name = "" }) => (
 	<div
 		className="text-white flex items-center gap-3
 					text-[15px] font-semibold cursor-pointer 
 					hover:underline underline-offset-8 mb-2"
-		key={key}
 	>
 		<Icon />
 		<h2>{name}</h2>
