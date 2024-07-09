@@ -72,11 +72,17 @@ export default function Header(): JSX.Element {
 					) : null}
 				</div>
 			</div>
-			<img
-				src="src/assets/img/profile-picture.png"
-				alt="Profile Picture"
-				className="w-[40px] rounded-full cursor-pointer"
-			/>
+			<a
+				href="https://github.com/sebastianmsz/disney-clone"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img
+					src="src/assets/img/profile-picture.png"
+					alt="Profile Picture"
+					className="w-[40px] rounded-full cursor-pointer hover:scale-105 hover:border-[1px]"
+				/>
+			</a>
 		</header>
 	);
 }
