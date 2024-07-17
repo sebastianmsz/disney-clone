@@ -4,16 +4,16 @@ This project is a Disney+ clone built for educational purposes. It demonstrates 
 
 ### Table of Contents
 
-- Live Demo
-- Installation
-- Usage
-- Features
+- [Live Demo](#live-demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
-- License
+- [License](#licence)
 
 ### Live Demo
 
-A live demo of the application can be found [here](https://sebastian.github.io/dysney-plus-clone).
+A live demo of the application can be found [here](https://sebastianmsz.github.io/disney-plus-clone/).
 
 ### Installation
 
