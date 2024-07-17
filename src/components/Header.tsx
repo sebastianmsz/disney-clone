@@ -52,7 +52,7 @@ export default function Header(): JSX.Element {
 					{toggle ? (
 						<div
 							key="dropdown-menu"
-							className="absolute mt-3 bg-[#131313] border-[1px] border-[#323236] p-3 px-5 py-4"
+							className="absolute mt-3 left-44 bg-[#131313] border-[1px] border-[#323236] p-3 px-5 py-4"
 						>
 							{menu.map(
 								(item, index) =>
@@ -69,12 +69,12 @@ export default function Header(): JSX.Element {
 				</div>
 			</div>
 			<a
-				href="https://github.com/sebastianmsz/disney-clone"
+				href="https://github.com/sebastianmsz/disney-plus-clone"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
 				<img
-					src="src/assets/img/profile-picture.png"
+					src="../assets/img/profile-picture.png"
 					alt="Profile Picture"
 					className="w-[40px] rounded-full cursor-pointer hover:scale-105 hover:border-[1px]"
 				/>

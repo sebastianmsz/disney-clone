@@ -1,8 +1,8 @@
-## Disney+ Clone
+# Disney+ Clone
 
 This project is a Disney+ clone built for educational purposes. It demonstrates the use of modern web development technologies including React, TypeScript, Tailwind CSS, and Vite.
 
-### Table of Contents
+## Table of Contents
 
 - Live Demo
 - Installation
@@ -11,11 +11,11 @@ This project is a Disney+ clone built for educational purposes. It demonstrates 
 - [Technologies Used](#technologies-used)
 - License
 
-### Live Demo
+## Live Demo
 
 A live demo of the application can be found [here](https://sebastian.github.io/dysney-plus-clone).
 
-### Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -35,19 +35,19 @@ A live demo of the application can be found [here](https://sebastian.github.io/d
    npm run dev
    ```
 
-### Usage
+## Usage
 
 - Open your browser and navigate to `http://localhost:3000` to see the application in action.
 - The application will display a list of movies with their posters. Clicking on a movie poster will show more details about the movie.
 
-### Features
+## Features
 
 - **Responsive Design:** The application is fully responsive and works on all device sizes.
 - **Movie Listing:** Displays a list of movies with their posters.
 - **Hover Effects:** Interactive hover effects on movie posters.
 - **No Poster Handling:** Gracefully handles movies without posters by displaying a placeholder message.
 
-### Technologies Used
+## Technologies Used
 
 - **React:** A JavaScript library for building user interfaces.
 - **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
@@ -55,7 +55,7 @@ A live demo of the application can be found [here](https://sebastian.github.io/d
 - **Vite:** A fast build tool and development server.
 - **Axios:** A promise-based HTTP client for making API requests.
 
-### License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
