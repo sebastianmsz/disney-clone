@@ -20,11 +20,13 @@ const productionHouseList = [
 
 export default function ProductionHouse(): JSX.Element {
 	return (
-		<div className="flex gap-2 md:gap-5 p-2 px-5 md:px-16 ">
+		<div className="flex flex-col md:flex-row gap-5 p-2 px-10 md:px-16">
 			{productionHouseList.map((item) => (
 				<div
 					key={item.id}
-					className="border-[2px] border-gray-600 rounded-lg hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer relative shadow-xl shadow-gray-800"
+					className="group  border-[#33343c] rounded-lg 
+					hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer
+					relative shadow-gray-800 box-s"
 				>
 					<video
 						src={item.video}
@@ -32,9 +34,11 @@ export default function ProductionHouse(): JSX.Element {
 						loop
 						playsInline
 						muted
-						className="absolute z-0 top-0 rounded-md opacity-0 hover:opacity-50"
+						className="absolute z-0 top-0 rounded-md opacity-0 hover:opacity-50
+						h-full"
 					/>
 					<img src={item.image} className="w-full z-[1] opacity-100" />
+					<div className="hover-border opacity-20"></div>
 				</div>
 			))}
 		</div>

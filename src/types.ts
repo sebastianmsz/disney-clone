@@ -3,6 +3,11 @@ interface MenuItem {
 	icon: React.ComponentType;
 }
 
+interface Genre {
+	id: number;
+	name: string;
+}
+
 interface HeaderItemProps {
 	icon: React.ComponentType;
 	name?: string;
@@ -31,4 +36,4 @@ interface MovieResponse {
 	total_pages: number;
 	total_results: number;
 }
-export { MenuItem, HeaderItemProps, Movie, MovieResponse };
+export { MenuItem, HeaderItemProps, Movie, MovieResponse, Genre };

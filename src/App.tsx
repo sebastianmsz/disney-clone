@@ -1,6 +1,7 @@
-import Header from "./Components/Header";
-import Slider from "./Components/Slider";
-import ProductionHouse from "./Components/ProductionHouse";
+import Header from "./components/Header";
+import Slider from "./components/Slider";
+import ProductionHouse from "./components/ProductionHouse";
+import GenreMovieList from "./components/GenreMovieList";
 
 export default function App(): JSX.Element {
 	return (
@@ -8,6 +9,7 @@ export default function App(): JSX.Element {
 			<Header />
 			<Slider />
 			<ProductionHouse />
+			<GenreMovieList />
 		</>
 	);
 }

@@ -28,7 +28,7 @@ export default function Header(): JSX.Element {
 			<div className="flex gap-8 items-center">
 				<img
 					src={logo}
-					className="w-[80px] md:w-[115px] object-cover cursor-pointer"
+					className="w-[100px] md:w-[115px] object-cover cursor-pointer"
 					alt="Disney Logo"
 				/>
 				<div className="hidden md:flex gap-8">
@@ -46,7 +46,7 @@ export default function Header(): JSX.Element {
 					onClick={() => {
 						setToggle(!toggle);
 					}}
-					className="md:hidden"
+					className="md:hidden z-30"
 				>
 					<HeaderItem icon={HiDotsVertical} name="" />
 					{toggle ? (

@@ -1,45 +1,64 @@
-# Disney Plus UI Clone with Vite, React, TypeScript, and Tailwind CSS 📺
+## Disney+ Clone
 
-This project is a work in progress and aims to create a clone of the Disney Plus user interface using Vite, React, TypeScript, and Tailwind CSS.
+This project is a Disney+ clone built for educational purposes. It demonstrates the use of modern web development technologies including React, TypeScript, Tailwind CSS, and Vite.
 
-## Installation
+### Table of Contents
 
-To get started, follow these steps:
+- Live Demo
+- Installation
+- Usage
+- Features
+- [Technologies Used](#technologies-used)
+- License
 
-1. Clone the repository:
+### Live Demo
 
-```bash
-git clone https://github.com/sebastianmsz/dysney-clone.git
-```
+A live demo of the application can be found [here](https://sebastian.github.io/dysney-plus-clone).
 
-2. Navigate to the project directory:
+### Installation
 
-```bash
-cd disney-clone
-```
+1. **Clone the repository:**
 
-3. Install the dependencies:
+   ```sh
+   git clone https://github.com/sebastianmsz/disney-plus-clone.git
+   cd disney-plus-clone
+   ```
 
-```bash
-npm install
-```
+2. **Install dependencies:**
 
-4. Start the development server:
+   ```sh
+   npm install
+   ```
 
-```bash
-npm run dev
-```
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
 
-## Contributing
+### Usage
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+- Open your browser and navigate to `http://localhost:3000` to see the application in action.
+- The application will display a list of movies with their posters. Clicking on a movie poster will show more details about the movie.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repository.
+### Features
 
-## License
+- **Responsive Design:** The application is fully responsive and works on all device sizes.
+- **Movie Listing:** Displays a list of movies with their posters.
+- **Hover Effects:** Interactive hover effects on movie posters.
+- **No Poster Handling:** Gracefully handles movies without posters by displaying a placeholder message.
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+### Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Vite:** A fast build tool and development server.
+- **Axios:** A promise-based HTTP client for making API requests.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+---
+
+This project was created for educational purposes by Sebastian Molina. Feel free to use it as a reference or starting point for your own projects.

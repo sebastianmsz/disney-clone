@@ -1,4 +1,4 @@
-import getTrendingVideos from "../Services/GlobalApi";
+import { getTrendingMovies } from "../services/global-api";
 import { useEffect, useState } from "react";
 import { Movie } from "../types";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
@@ -10,16 +10,16 @@ export default function Slider(): JSX.Element {
 	const [currentIndex, setCurrentIndex] = useState(0);
 
 	useEffect(() => {
-		const fetchTrendingVideos = async (): Promise<void> => {
+		const fetchTrendingMovies = async (): Promise<void> => {
 			try {
-				const response = await getTrendingVideos();
+				const response = await getTrendingMovies();
 				setMovieList(response.data.results);
 			} catch (error) {
 				console.error("Error fetching trending videos:", error);
 			}
 		};
 
-		void fetchTrendingVideos();
+		void fetchTrendingMovies();
 	}, []);
 
 	const handlePrev = (): void => {
@@ -39,13 +39,13 @@ export default function Slider(): JSX.Element {
 	};
 
 	return (
-		<div className="relative w-full px-16 py-4 overflow-hidden text-3xl">
+		<div className="relative w-full px-10 md:px-16 py-4 pb-10 overflow-hidden text-3xl">
 			<HiChevronLeft
-				className="absolute left-5 top-1/2 transform -translate-y-1/2 cursor-pointer z-10 text-4xl"
+				className="absolute left-12 md:left-5 top-1/2 transform -translate-y-1/2 cursor-pointer z-10 text-4xl"
 				onClick={handlePrev}
 			/>
 			<HiChevronRight
-				className="absolute right-5 top-1/2 transform -translate-y-1/2 cursor-pointer z-10 text-4xl"
+				className="absolute right-12 md:right-5 top-1/2 transform -translate-y-1/2 cursor-pointer z-10 text-4xl"
 				onClick={handleNext}
 			/>
 			<div
@@ -57,13 +57,13 @@ export default function Slider(): JSX.Element {
 						<img
 							src={`${IMAGE_BASE_URL}${movie.backdrop_path ?? ""}`}
 							alt="Image Poster"
-							className="rounded-lg w-full md:h-[310px] object-cover relative"
+							className="rounded-lg w-full md:h-[310px] object-cover relative box-s"
 						/>
-						<div className="absolute inset-y-0 inset-x-2 rounded-lg border-4 border-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out pointer-events-none"></div>
+						<div className="hover-border !inset-y-0 !inset-x-2 opacity-0"></div>
 					</div>
 				))}
 			</div>
-			<div className="hidden absolute bottom-7 right-0 transform -translate-x-1/3 md:flex space-x-2">
+			<div className="hidden absolute bottom-14 right-0 transform -translate-x-1/3 md:flex space-x-2">
 				{movieList.map((_, index) => (
 					<div
 						key={index}
