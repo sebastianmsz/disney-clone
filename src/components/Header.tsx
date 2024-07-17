@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/img/logo.png";
 import HeaderItem from "./HeaderItem";
+import profilePic from "../assets/img/profile-picture.png";
 import {
 	HiHome,
 	HiMagnifyingGlass,
@@ -74,7 +75,7 @@ export default function Header(): JSX.Element {
 				rel="noopener noreferrer"
 			>
 				<img
-					src="../assets/img/profile-picture.png"
+					src={profilePic}
 					alt="Profile Picture"
 					className="w-[40px] rounded-full cursor-pointer hover:scale-105 hover:border-[1px]"
 				/>

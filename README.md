@@ -1,4 +1,4 @@
-# Disney+ Clone
+# Disney+ Clone 🎥
 
 This project is a Disney+ clone built for educational purposes. It demonstrates the use of modern web development technologies including React, TypeScript, Tailwind CSS, and Vite.
 
@@ -9,7 +9,7 @@ This project is a Disney+ clone built for educational purposes. It demonstrates 
 - [Usage](#usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [License](#licence)
+- [License](#license)
 
 ## Live Demo
 
